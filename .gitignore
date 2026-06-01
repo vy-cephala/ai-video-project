@@ -1,0 +1,63 @@
+# ======================
+# Biến môi trường (BÍ MẬT — KHÔNG ĐẨY LÊN GITHUB)
+# ======================
+.env
+.env.local
+*.env.backup
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+
+# ======================
+# Output ReelGen (file nặng, không cần đẩy)
+# ======================
+output/
+videos/
+uploads/
+temp/
+*.mp4
+*.mov
+*.tmp
+
+# ======================
+# Database
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+
+# ======================
+# Khác
+# ======================
+node_modules/
+.cache/
+*.bak
